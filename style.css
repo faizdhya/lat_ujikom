@@ -1,0 +1,55 @@
+.foto {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+.icon {
+  height: 40px;
+
+  width: 40px;
+}
+
+.ikon {
+  height: 25px;
+  width: 25px;
+}
+
+.logo {
+  width: 8rem;
+  height: 80px;
+  object-fit: contain; /* atau cover tergantung hasil yang diinginkan */
+}
+
+.lgo {
+  width: 5 rem;
+  height: 60px;
+  object-fit: contain;
+}
+
+.footer {
+  background-color: #0e121c;
+  color: #fff;
+}
+
+.text-putih {
+  color: #fff;
+  font-size: large;
+}
+
+.card {
+  border: none;
+  width: 80px; /* Mengecilkan ukuran gambar, sesuaikan dengan kebutuhan */
+  height: auto;
+}
+
+.jurusan {
+  gap: 40px; /* Jarak antar item */
+  align-items: flex-start; /* Agar teks rata atas */
+}
+
+
+.k{
+  size: 100px;
+}
