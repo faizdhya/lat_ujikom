@@ -17,10 +17,34 @@
 
 <body>
 
-    <section class="mt-8">
+    <section>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-center">GALERI</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mt-5">
         <div class="container">
             <div class="row gap-5 justify-content-evenly">
-                <?php $galeri = ['asset\kgtn.jpg'];?>
+
+                <div class="col-sm-3">
+                    <div class="card shadow" style="width: 20rem;">
+                        <img src="asset\kgtn.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card shadow" style="width: 20rem;">
+                        <img src="asset\kgtn.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card shadow" style="width: 20rem;">
+                        <img src="asset\kgtn.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
                 <div class="col-sm-3">
                     <div class="card shadow" style="width: 20rem;">
                         <img src="asset\kgtn.jpg" class="card-img-top" alt="...">

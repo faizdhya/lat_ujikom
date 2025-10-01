@@ -1,0 +1,5 @@
+<?php
+      $gambar_jrsn = ["asset/pplg.png", "asset/tjkt.png", "asset/dkv.png", "asset/toi.png", "asset/tbsm.png"];
+      $nama_jrsn = ["PPLG", "TJKT", "DKV", "TOI", "TBSM"];
+      for ($i = 0; $i < count($gambar_jrsn); $i++) 
+      ?>

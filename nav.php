@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg sticky-top">
         <div class="container">
             <a class="navbar-brand" href="index.php">
                 <img src="asset/Logo_SMK_Negeri_4_Tasikmalaya.png" alt="" class="lgo">

@@ -53,3 +53,8 @@
 .k{
   size: 100px;
 }
+
+.img-thumbnail.border-none{
+  border: none;
+  border-radius: 1rem;
+}
