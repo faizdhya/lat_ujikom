@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Ekstra</title>
 </head>
 
@@ -20,22 +21,22 @@
   </section>
   <section>
     <div class="container d-flex flex-wrap justify-content-evenly text-center border-none jurusan " data-aos="fade-up" style="padding-top: 4rem;">
-      <?php $jurusans = [
-        ["img" => "pplg.png", "nama" => "PPLG"],
-        ["img" => "tjkt.png", "nama" => "TJKT"],
-        ["img" => "dkv.png", "nama" => "DKV"],
-        ["img" => "toi.png", "nama" => "TOI"],
-        ["img" => "tbsm.png", "nama" => "TBSM"],
-
+      <?php $ekskuls = [
+        ["img" => "badminton.png", "nama" => "PPLG"],
+        ["img" => "basket.png", "nama" => "TJKT"],
+        ["img" => "irma.png", "nama" => "DKV"],
+        ["img" => "pd.png", "nama" => "TOI"],
+        ["img" => "pmr.png", "nama" => "TBSM"],
+        ["img" => "pramuka.png", "nama" => "Pramuka"]
       ];
       ?>
-      <?php foreach ($jurusans as $jurusan): ?>
+      <?php foreach ($ekskuls as $ekskul): ?>
         <div class="row">
           <div class="col rounded-3 shadow">
             <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="...">
+              <img src="asset/ekskul/<?= $ekskul['img']; ?>" class="card-img-top-cs " alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title"><?= $ekskul['nama']; ?></h5>
               </div>
             </div>
           </div>

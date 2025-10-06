@@ -58,3 +58,15 @@
   border: none;
   border-radius: 1rem;
 }
+
+.card-img-top-cs{
+   width: 24;
+  height: 240px;
+  object-fit: contain;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  transition: 0.3s ease;
+}

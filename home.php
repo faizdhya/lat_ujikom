@@ -106,7 +106,7 @@
       ?>
       <?php foreach ($jurusans as $jurusan): ?>
         <div class="card" style="width: 10rem;">
-          <img src="asset/jurusan/<?= $jurusan['img']; ?>" class="card-img-top" alt="...">
+          <img src="asset/jurusan/<?= $jurusan['img']; ?>" class="card-img-top-cs" alt="...">
           <div class="card-body">
             <h5 class="card-title"><?= $jurusan['nama'] ?></h5>
           </div>
@@ -202,17 +202,23 @@
           "judul" => "Cegah Geng Motor, SMKN di Tasikmalaya Luncurkan Ekstrakurikuler Unik",
           "desk" => "Sekolah Menengah Kejuruan Negeri (SMKN) 4 Kota Tasikmalaya, meluncurkan program ekstrakurikuler unik, yakni keselamatan berkendara atau safety riding bagi para..."
         ],
+        [
+          "link" => "https://tasikmalaya.inews.id/read/502735/polsek-cibeureum-sosialisasikan-larangan-knalpot-brong-dan-geng-motor-di-smkn-4-kota-tasikmalaya",
+          "img" => "berita2.jpg",
+          "judul" => "Polsek Cibeureum Sosialisasikan Larangan Knalpot Brong dan Geng Motor di SMKN 4 Kota Tasikmalaya",
+          "desk" => "Kapolsek Cibeureum, AKP Nurrozi, kembali mengambil langkah preventif dengan memberikan penyuluhan kepada..."
+        ],
       ];
       ?>
       <?php foreach ($beritas as $berita): ?>
-        <div class="row justify-content-center shadow">
+        <div class="row justify-content-center shadow mt-5">
           <div class="col-4">
-            <a href="<?= $berita['link']; ?>">
-              <img src="asset/berita/berita1.jpg" class=" img-thumbnail border-none ">
+            <a href="<?= $berita['link']; ?>" target="_blank">
+              <img src="asset/berita/<?= $berita['img']; ?>" class=" img-thumbnail border-none ">
             </a>
           </div>
           <div class="col-8">
-            <a href="<?= $berita['link']; ?>">
+            <a href="<?= $berita['link']; ?>" target="_blank">
               <h4><?= $berita['judul']; ?></h4>
               <p><?= $berita['desk']; ?></p>
             </a>
